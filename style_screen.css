@@ -1,0 +1,23 @@
+tbody tr {background-color:LightGoldenRodYellow; opacity:1}
+tbody:odd tr {background-color:LightBlue }
+tr.pass, td.pass, .currentdisplay {background-color:SpringGreen}
+tr.fail, td.fail, .error {background-color:#ff3333 /*red*/}
+tr.warning {background-color:orange;}
+.scenario {border:1px black solid ;border-radius:12px; padding:1eM; margin:1ex;}
+.postIt{position: fixed;top:20%;right:0px;margin:0px;padding:4pt 8pt;border: 1px solid Black;border-right:none;background-color:PaleGoldenRod;border-top-left-radius:8px;border-bottom-left-radius:8px;display:none;}
+.scenario:hover .postIt {display:block;}
+.menu {position: fixed;top:0px;left:50%;margin:0px;padding:4pt;border: 1px solid;border-top:none;background-color:PaleGoldenRod;
+border-bottom-left-radius:8px;border-bottom-right-radius:8px; }
+a:hover{color:red;}
+div.boxed div {float:left;height:16eM;overflow:scroll;margin:1px;resize: both;max-width:100% }
+div.cell {max-width:64ex;max-height:48ex;overflow:scroll;padding:0;margin:0}
+div.clear {clear: both;}
+.toc ol{display:none;padding-left:1ex}
+.toc li{padding:0;margin:0;padding:1px;}
+.toc a {margin:0;padding:0 1ex;}
+.toc {position: fixed;bottom:0px;left:0px;margin:0px;padding:4pt 8pt;border: 1px solid Black;background-color:PaleGoldenRod;border-top-right-radius:8px;}
+.toc:hover ol{display:block;}
+.query .showSQL {display:none}
+.query:hover .showSQL {display:block}
+
+
