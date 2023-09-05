@@ -1,11 +1,10 @@
 <?php
 
 require_once 'inc\toolboxcore.lib.php';
-require_once '..\CTM\autoload\Debug.class.php';
 
 
 $csv_filename="password_dbaas.csv";
-$csv_separator=';';
+$csv_separator=',';
 $csv_max_len=1024;
 
 #ordre des colonnes dans le CSV
@@ -20,10 +19,7 @@ $col_dg_server=7;
 $col_dg_port=8;
 $col_dg_service=9;
 
-
-$prefered_admins=Array('GMAADMIN','PP06612S');
-
-
+$prefered_admins=Array('GMAADMIN','YOUR_USER');
 
 
 // lire le CSV
